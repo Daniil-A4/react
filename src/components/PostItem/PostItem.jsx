@@ -8,7 +8,7 @@ export const PostItem = (props) => {
       <h2 className="postItem__title">{props.post.title}</h2>
       <p className="postItem__text">{props.post.descr}
       </p>
-      <Button className="postItem__btn">delete</Button>
+      <Button className="postItem__btn">btn</Button>
     </div>
   )
 }
