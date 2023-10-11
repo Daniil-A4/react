@@ -31,8 +31,7 @@ function App() {
 
   return (
     <div className='container'>
-      <PostForm create={createPost}/> 
-      <PostList posts={posts} title='List of posts' />
+      
     </div>
   );
 }
