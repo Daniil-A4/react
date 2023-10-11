@@ -1,0 +1,10 @@
+.addPost {
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: rgb(1, 87, 1);
+  border: 1px solid rgb(129, 145, 142);
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+}

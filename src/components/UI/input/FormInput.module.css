@@ -1,0 +1,9 @@
+.formInput {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: rgb(1, 87, 1);
+  border: 1px solid rgb(129, 145, 142);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
