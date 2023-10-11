@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import './app.css';
-import { PostList } from './components/PostList/PostList';
-import { PostForm } from './components/PostForm/PostForm';
-
+import { PostItem } from './components/PostItem/PostItem';
 
 function App() {
-  const [posts, setPosts] = useState(
+  const [posts] = useState(
     [
       {
         id: 1,
@@ -25,13 +23,13 @@ function App() {
     ]
   );
 
-  const createPost = (newPost) => {
-    setPosts([...posts, newPost])
-  }
-
   return (
     <div className='container'>
-      
+      <ul className='posts'>
+        {posts.map((post) => (
+          <PostItem post={post} key={post.id} />
+        ))}
+      </ul>
     </div>
   );
 }
