@@ -1,27 +1,21 @@
 .postItem {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
-  border: 2px solid rgb(90, 90, 245);
-  border-radius: 5px;
+  border: 2px solid teal;
   padding: 7px;
   margin-bottom: 20px;
   max-width: 700px;
+  box-sizing: border-box;
+}
+
+.postItem__content {
+  width: 100%;
 }
 
 .postItem__title {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
-}
-
-.postItem__btn {
-  background-color: rgb(90, 90, 245);
-  color: white;
-  border: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 4px;
-  cursor: pointer;
 }

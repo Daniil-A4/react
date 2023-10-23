@@ -1,9 +1,10 @@
 .formInput {
-  width: 100%;
+  width: 400px;
+  display: block;
   padding: 5px;
   margin-bottom: 5px;
-  color: rgb(1, 87, 1);
-  border: 1px solid rgb(129, 145, 142);
+  color: teal;
+  border: 2px solid teal;
   box-sizing: border-box;
   border-radius: 5px;
 }
