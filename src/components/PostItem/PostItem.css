@@ -1,21 +1,16 @@
-.postItem {
+.post__item {
+  border: 3px solid darkcyan;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-  border: 2px solid teal;
-  padding: 7px;
-  margin-bottom: 20px;
-  max-width: 700px;
-  box-sizing: border-box;
+  padding: 10px 5px;
 }
 
-.postItem__content {
-  width: 100%;
+.post__item-title {
+  margin: 0;
+  padding: 0 10px 10px 10px;
 }
 
-.postItem__title {
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 1px;
+.post__item-body {
+  margin: 0;
+  padding: 10px;
 }
